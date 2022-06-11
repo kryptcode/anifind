@@ -67,8 +67,8 @@ export default function Home() {
 									</a>
 								</Link>
 							</div>
-							<div className="flex-[2] text-gray-500">
-								<div className="flex space-x-4 mb-3 text-xl font-semibold tracking-wider">
+							<div className="flex-[2] text-gray-500 text-center md:text-left">
+								<div className="flex space-x-4 mb-3 text-xl justify-center md:justify-left font-semibold tracking-wider">
 									<p className="">
 										Title:
 									</p>
@@ -76,7 +76,7 @@ export default function Home() {
 										{animeDetail.title}{' '} 
 									</p>
 								</div>
-								<div className="flex space-x-4 mb-2">
+								<div className="flex space-x-4 mb-2 justify-center md:justify-left">
 									<p className="">
 										Popularity:
 									</p>
@@ -84,7 +84,7 @@ export default function Home() {
 										{animeDetail.score}{' '} / 10
 									</p>
 								</div>
-								<div className="flex space-x-4 mb-2">
+								<div className="flex space-x-4 mb-2 justify-center md:justify-left">
 									<p className="">
 										Rated
 									</p>
