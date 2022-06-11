@@ -45,7 +45,7 @@ export default function Home() {
 						onChange={e => setAnime(e.target.value)}
 					/>
 					<button
-						className="py-1.5 px-8 tracking-wider bg-green-600 text-white"
+						className="py-1.5 px-4 md:px-8 tracking-wider bg-green-600 text-white"
 						onClick={e => fetchAnimeDetails(e)}
 					>
 						Search
