@@ -36,7 +36,7 @@ export default function Home() {
 			<Header />
 
 			<div className="w-[90%] mx-auto ">
-				<form className="flex justify-between items-center w-[80%] mx-auto space-x-8 mb-16  ">
+				<form className="flex justify-between items-center space-x-8 mb-16  ">
 					<input
 						autoFocus={true}
 						type="text"
